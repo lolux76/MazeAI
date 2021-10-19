@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/etud/Bureau/Projets Perso/MazeAI/includes/generator.h
+vector
+-
+
+/home/etud/Bureau/Projets Perso/MazeAI/src/generator.cpp
+../includes/generator.h
+/home/etud/Bureau/Projets Perso/MazeAI/includes/generator.h
+iostream
+-
+
+/home/etud/Bureau/Projets Perso/MazeAI/src/main.cpp
+../includes/generator.h
+/home/etud/Bureau/Projets Perso/MazeAI/includes/generator.h
+iostream
+-
+
